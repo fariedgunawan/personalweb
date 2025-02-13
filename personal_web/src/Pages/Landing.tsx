@@ -45,103 +45,126 @@ const Landing = () => {
       {/*end of openers */}
 
       {/*working experience section */}
-      <div className="working bg-[#dbe2fe] h-[100rem] px-[20px]">
-        <div className="container py-[20px]">
+      <div className="working bg-[#e4f4ff] h-[95rem] flex justify-center px-[20px]">
+        <div className="container py-[30px]">
           <div className="working flex flex-col">
             <div className="title-of-working">
               <h2 className="font-bold text-[25px] text-[#002bb1]">Working Experience</h2>
             </div>
             {/*start list of working */}
-            <div className="working-list mt-[20px] text-[#002bb1]">
-              <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-                <li>
-                  <div className="timeline-middle">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="timeline-start md:text-end">
-                    <time className="font-mono italic">May 2021 - Jul 2021</time>
-                    <div className="text-lg font-black">Web Developer Internships</div>
-                    <h2 className="text-black">
-                      I had the opportunity to intern as a web developer specializing in WordPress at the Mathematics Department of As-Syafi'iyah Islamic University in Jakarta. During this internship, I diligently worked on various
-                      projects, ensuring timely and accurate completion of all tasks assigned to me. My commitment to excellence and punctuality was reflected in the quality of my work and my ability to meet deadlines consistently.
-                    </h2>
-                  </div>
-                  <hr />
-                </li>
-                <li>
-                  <hr />
-                  <div className="timeline-middle">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="timeline-end md:mb-10">
-                    <time className="font-mono italic">Jun 2024 - Sep 2024</time>
-                    <div className="text-lg font-black">Full Stack Developer</div>
-                    <h2 className="text-black">
-                      As a Full Stack Developer intern at PT. Sinergi Jaya Rahayu from June to September 2024, I contributed to Business Process System Development, taking on roles as a UI Designer, Front-End Developer, and Back-End
-                      Developer. My responsibilities included designing intuitive and responsive user interfaces, developing front-end applications with modern web technologies to ensure optimal performance, and managing back-end logic and
-                      databases to support seamless system functionality. This experience enhanced my skills in UI/UX design, front-end and back-end development, and integrating efficient business systems.
-                    </h2>
-                  </div>
-                  <hr />
-                </li>
-                <li>
-                  <hr />
-                  <div className="timeline-middle">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="timeline-start md:text-end">
-                    <time className="font-mono italic">Nov 2023 - Jan 2025</time>
-                    <div className="text-lg font-black">Frontend Developer</div>
-                    <h2 className="text-black">
-                      As a Front-End Developer at IEEE Telkom University Student Branch from November 2023 to January 2025, I am responsible for designing and developing user-friendly, responsive web interfaces. My role involves
-                      implementing modern front-end technologies to enhance user experience, optimizing web performance, and ensuring seamless integration with back-end systems. Through this position, I have strengthened my skills in UI/UX
-                      design, front-end development, and building scalable web applications.
-                    </h2>
-                  </div>
-                  <hr />
-                </li>
-                <li>
-                  <hr />
-                  <div className="timeline-middle">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="timeline-end md:mb-10">
-                    <time className="font-mono italic">2007</time>
-                    <div className="text-lg font-black">iPhone</div>
-                    iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since then, Apple has
-                    annually released new iPhone models and iOS updates. As of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone accounts for 15.6% of global smartphone market share
-                  </div>
-                  <hr />
-                </li>
-                <li>
-                  <hr />
-                  <div className="timeline-middle">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div className="timeline-start mb-10 md:text-end">
-                    <time className="font-mono italic">2015</time>
-                    <div className="text-lg font-black">Apple Watch</div>
-                    The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication, and integrates with iOS and other Apple products and
-                    services
-                  </div>
-                </li>
-              </ul>
+            <div className="container-timeline">
+              <div className="working-list mt-[30px] text-[#002bb1]">
+                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                  <li>
+                    <div className="timeline-middle">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="timeline-start md:text-end">
+                      <time className="font-mono italic">May 2021 - Jul 2021</time>
+                      <div className="text-lg font-black">Web Developer Internships</div>
+                      <h2 className="text-black">
+                        I had the opportunity to intern as a web developer specializing in WordPress at the Mathematics Department of As-Syafi'iyah Islamic University in Jakarta. During this internship, I diligently worked on various
+                        projects, ensuring timely and accurate completion of all tasks assigned to me. My commitment to excellence and punctuality was reflected in the quality of my work and my ability to meet deadlines consistently.
+                      </h2>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <hr />
+                    <div className="timeline-middle">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="timeline-end">
+                      <time className="font-mono italic">Jun 2024 - Sep 2024</time>
+                      <div className="text-lg font-black">Full Stack Developer</div>
+                      <h2 className="text-black">
+                        As a Full Stack Developer intern at PT. Sinergi Jaya Rahayu from June to September 2024, I contributed to Business Process System Development, taking on roles as a UI Designer, Front-End Developer, and Back-End
+                        Developer. My responsibilities included designing intuitive and responsive user interfaces, developing front-end applications with modern web technologies to ensure optimal performance, and managing back-end logic
+                        and databases to support seamless system functionality. This experience enhanced my skills in UI/UX design, front-end and back-end development, and integrating efficient business systems.
+                      </h2>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <hr />
+                    <div className="timeline-middle">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="timeline-start md:text-end">
+                      <time className="font-mono italic">Nov 2023 - Jan 2025</time>
+                      <div className="text-lg font-black">Frontend Developer</div>
+                      <h2 className="text-black">
+                        As a Front-End Developer at IEEE Telkom University Student Branch from November 2023 to January 2025, I am responsible for designing and developing user-friendly, responsive web interfaces. My role involves
+                        implementing modern front-end technologies to enhance user experience, optimizing web performance, and ensuring seamless integration with back-end systems. Through this position, I have strengthened my skills in
+                        UI/UX design, front-end development, and building scalable web applications.
+                      </h2>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <hr />
+                    <div className="timeline-middle">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="timeline-end">
+                      <time className="font-mono italic">Sep 2024 - Jan 2025</time>
+                      <div className="text-lg font-black">Education Mentor For Data Structure</div>
+                      <h2 className="text-black">
+                        As an Education Mentor for Data Structure at KONTENT HIMA IF Telkom University from September 2024 to January 2025, I guide students in understanding fundamental and advanced data structure concepts. My role involves
+                        mentoring, problem analysis, and assisting with program development using C++. Through this experience, I enhance my expertise in data modeling and algorithm optimization while helping students build strong
+                        problem-solving skills.
+                      </h2>
+                    </div>
+                    <hr />
+                  </li>
+                  <li>
+                    <hr />
+                    <div className="timeline-middle">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="timeline-start mb-10 md:text-end">
+                      <time className="font-mono italic">Sep 2024 - Jan 2025</time>
+                      <div className="text-lg font-black">Practicum Assistant For Data Structure</div>
+                      <h2 className="text-black">
+                        As a Practicum Assistant for Data Structure at the Informatics Laboratory of Telkom University from September 2024 to January 2025, I assist students in understanding and implementing data structure concepts through
+                        hands-on practice. My role involves guiding students in programming with C++, troubleshooting code, and fostering problem-solving and analytical skills. This experience enhances my technical expertise while helping
+                        students develop a strong foundation in data structures.
+                      </h2>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
+
             {/*end of list of working */}
           </div>
         </div>
       </div>
       {/*end of working experience section */}
+
+      {/*showing sertification */}
+      <div className="body-certification flex flex-col bg-white h-[40rem] px-[20px] py-[30px]">
+        <div className="title-of-certif">
+          <h2 className="font-bold text-[25px] text-[#002bb1]">Certification</h2>
+        </div>
+
+        <div className="content-of-certif flex justify-center">
+          <div className="card-of-certif">
+            
+          </div>
+        </div>
+      </div>
+      {/*end of showing sertification */}
     </div>
   );
 };
