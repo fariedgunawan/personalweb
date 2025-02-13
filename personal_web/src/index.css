@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@font-face {
+  font-family: Montserrat;
+  src: url(EBGaramond-VariableFont_wght.ttf);
+}
+
+:root {
+  font-family: Montserrat, sans-serif;
+  color: black;
+}
